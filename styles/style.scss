@@ -1,0 +1,11 @@
+@import "./_variables.scss";
+@import "./_header.scss";
+// .contact button {
+//     background: $primaryBtn;
+// }
+.contact {
+    // @include flexCenter(row, green);
+    @extend header;
+    height: 100vh;
+    background-color: white;
+}
