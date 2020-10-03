@@ -1,5 +1,6 @@
 # sass-playground
-play the features of sass...
+Learn the features of sass...
+Sass (short for syntactically awesome style sheets) is a preprocessor scripting language that is interpreted or compiled into CSS.
 # Variables
 You now can reuse the variables in css (color, fontstyles...), like javascript syntax: $val_name: value;
 # Nesting
