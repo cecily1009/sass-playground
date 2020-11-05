@@ -1,1 +1,0 @@
-header,.contact{background:aqua;display:flex;justify-content:center;color:#a897ce;align-items:center;flex-direction:column;background:pink}header button,.contact button{background-color:#59acd3}header button::after,.contact button::after{content:"Hellooooo"}.contact{height:100vh;background-color:white}

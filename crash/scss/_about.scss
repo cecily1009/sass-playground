@@ -1,0 +1,59 @@
+.about {
+    padding-bottom: 2rem;
+    &__bio-img {
+        height: 40vh;
+        width: 100%;
+        background: linear-gradient( to right, rgba($primary-color, 0.9), rgba($primary-color, 0.3), ), url("../../dist/imgs/cover.jpg") center top;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        p {
+            margin-block-end: 2rem;
+        }
+    }
+    &__bio {
+        width: 100%;
+        text-align: center;
+        .text-secondary {
+            padding-bottom: 1rem;
+        }
+    }
+    .text-secondary {
+        padding-top: 2rem;
+        text-align: center;
+    }
+    .skills {
+        margin: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        &__skill {
+            background: lighten($primary-color, 10%);
+            padding: 1rem;
+            border-bottom: 5px solid $secondary-color;
+            text-align: center;
+            progress {
+                background-color: set-text-color($primary-color);
+            }
+            progress::-webkit-progress-bar {
+                background-color: set-text-color($primary-color);
+            }
+            progress::-moz-progress-bar {
+                background-color: set-text-color($primary-color);
+            }
+        }
+    }
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-right: 1rem;
+    transform: rotate(90deg) translate(-3rem, -5rem);
+}
