@@ -13,10 +13,15 @@
         }
     }
     &__bio {
-        width: 100%;
+        width: 60%;
         text-align: center;
+        line-height: 1.5rem;
         .text-secondary {
+            font-size: 3rem;
             padding-bottom: 1rem;
+        }
+        strong {
+            color: $secondary-color;
         }
     }
     .text-secondary {
@@ -24,12 +29,11 @@
         text-align: center;
     }
     .skills {
-        margin: 1rem;
+        width: 80vw;
+        margin: 2rem auto 0 auto;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 1rem;
-        margin-left: 5rem;
-        margin-right: 5rem;
+        grid-gap: 1.5rem;
         &__skill {
             background: lighten($primary-color, 10%);
             padding: 1rem;
@@ -44,6 +48,8 @@
             progress::-moz-progress-bar {
                 background-color: set-text-color($primary-color);
             }
+            animation: fade-in;
+            animation-duration: 3s;
         }
     }
 }

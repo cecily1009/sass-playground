@@ -19,3 +19,23 @@ $text-color:#fff;
         @return $text-color;
     }
 }
+
+@keyframes fade-in {
+    from {
+        width: 0.1%;
+        height: 0.1%;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .projects__items {
+        width: 60vw;
+        grid-template-columns: 1fr;
+    }
+}
